@@ -1,8 +1,8 @@
-# Jetson ( Nano ) Initialize
+# Jetson ( Nano ) Initialize 
 
 You can use it to initialize the jetson (nano)
 
-### Create an initialized system by our sh
+### Create an initialized system by my sh (My own habits)
 
 1. Flash Jetson Nano following the [Getting Started Guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
@@ -13,5 +13,9 @@ You can use it to initialize the jetson (nano)
     ```bash
     https://github.com/Vicwxy9/Jetson-Init
     cd Jetson-Init
-    sh ./init.sh
+    # chmod +x ./init.sh
+    ./init.sh
     ```
+
+
+###### The project is learning from [Jetcard](https://github.com/NVIDIA-AI-IOT/jetcard)
